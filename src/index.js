@@ -30,6 +30,6 @@ function submitWord() {
   }).then((response) => {
     return response.json();
   }).then((jsonResponse) => {
-    console.log(jsonResponse)
+    alert(jsonResponse.message)
   });
 }
