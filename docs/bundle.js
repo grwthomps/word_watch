@@ -10361,7 +10361,7 @@ var transform;
 var options = {}
 options.transform = transform
 // add the styles to the DOM
-var update = __webpack_require__(6)(content, options);
+var update = __webpack_require__(5)(content, options);
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -10379,102 +10379,12 @@ if(false) {
 
 /***/ }),
 /* 4 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-exports = module.exports = __webpack_require__(5)(undefined);
-// imports
-exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700);", ""]);
-
-// module
-exports.push([module.i, "/* http://meyerweb.com/eric/tools/css/reset/ \n   v2.0 | 20110126\n   License: none (public domain)\n*/\nhtml, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline; }\n\n/* HTML5 display-role reset for older browsers */\narticle, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1; }\n\nol, ul {\n  list-style: none; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:before, blockquote:after {\n  content: '';\n  content: none; }\n\nq:before, q:after {\n  content: '';\n  content: none; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\nbody {\n  font-family: \"Open Sans\", \"Helvetica\", sans-serif;\n  color: #555;\n  margin: 5px;\n  background-color: #ebebeb;\n  overflow: hidden; }\n\nh1 {\n  font-size: 3em; }\n\nh2 {\n  font-size: 2.5em; }\n\nh3 {\n  font-size: 2em; }\n\nh4 {\n  font-size: 1.5em; }\n\na {\n  text-decoration: none;\n  color: #555; }\n\nmain {\n  display: flex;\n  justify-content: space-between; }\n  main .text-submission {\n    display: flex;\n    flex-direction: column;\n    justify-content: space-around;\n    flex: 1;\n    margin-right: 20px;\n    height: 100vh; }\n    main .text-submission h2 {\n      margin-bottom: 10px;\n      color: #4B0082; }\n      main .text-submission h2 span {\n        color: #FA8072; }\n    main .text-submission textarea {\n      resize: none;\n      border: 2px solid #ededf5;\n      border-radius: 3px;\n      width: 100%;\n      height: 80vh;\n      font-family: \"Open Sans\", \"Helvetica\", sans-serif; }\n    main .text-submission button {\n      border: none;\n      color: #ededf5;\n      width: 205px;\n      border-radius: 3px;\n      padding: .8em 3em;\n      font-size: 1.1em;\n      margin-top: 10px;\n      transition: 300ms;\n      background-color: #FA8072; }\n      main .text-submission button:hover, main .text-submission button:focus {\n        transition: 300ms;\n        cursor: pointer;\n        background-color: #4B0082; }\n  main .word-data {\n    width: 65%;\n    background-color: #ddd; }\n    main .word-data .top-word {\n      display: flex;\n      flex-direction: column;\n      justify-content: center;\n      border-bottom: 2px solid #4B0082;\n      height: 8vh;\n      color: #FA8072;\n      padding: 10px; }\n    main .word-data .word-count {\n      display: flex;\n      flex-wrap: wrap;\n      align-items: baseline;\n      padding: 5px;\n      overflow-y: scroll;\n      overflow-x: scroll;\n      height: 90vh; }\n      main .word-data .word-count p {\n        margin-right: 10px; }\n        main .word-data .word-count p span {\n          display: none; }\n", ""]);
-
-// exports
-
+throw new Error("Module build failed: Error: Missing binding /Users/gthompson/turing/mod_4/practice/word_watch/node_modules/node-sass/vendor/darwin-x64-72/binding.node\nNode Sass could not find a binding for your current environment: OS X 64-bit with Node.js 12.x\n\nFound bindings for the following environments:\n  - OS X 64-bit with Unsupported runtime (79)\n\nThis usually happens because your environment has changed since running `npm install`.\nRun `npm rebuild node-sass` to download the binding for your current environment.\n    at module.exports (/Users/gthompson/turing/mod_4/practice/word_watch/node_modules/node-sass/lib/binding.js:15:13)\n    at Object.<anonymous> (/Users/gthompson/turing/mod_4/practice/word_watch/node_modules/node-sass/lib/index.js:14:35)\n    at Module._compile (internal/modules/cjs/loader.js:1158:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)\n    at Module.load (internal/modules/cjs/loader.js:1002:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:901:14)\n    at Module.require (internal/modules/cjs/loader.js:1044:19)\n    at require (internal/modules/cjs/helpers.js:77:18)\n    at Object.<anonymous> (/Users/gthompson/turing/mod_4/practice/word_watch/node_modules/sass-loader/lib/loader.js:3:14)\n    at Module._compile (internal/modules/cjs/loader.js:1158:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)\n    at Module.load (internal/modules/cjs/loader.js:1002:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:901:14)\n    at Module.require (internal/modules/cjs/loader.js:1044:19)\n    at require (internal/modules/cjs/helpers.js:77:18)\n    at loadLoader (/Users/gthompson/turing/mod_4/practice/word_watch/node_modules/loader-runner/lib/loadLoader.js:13:17)\n    at iteratePitchingLoaders (/Users/gthompson/turing/mod_4/practice/word_watch/node_modules/loader-runner/lib/LoaderRunner.js:169:2)\n    at iteratePitchingLoaders (/Users/gthompson/turing/mod_4/practice/word_watch/node_modules/loader-runner/lib/LoaderRunner.js:165:10)\n    at /Users/gthompson/turing/mod_4/practice/word_watch/node_modules/loader-runner/lib/LoaderRunner.js:173:18\n    at loadLoader (/Users/gthompson/turing/mod_4/practice/word_watch/node_modules/loader-runner/lib/loadLoader.js:36:3)\n    at iteratePitchingLoaders (/Users/gthompson/turing/mod_4/practice/word_watch/node_modules/loader-runner/lib/LoaderRunner.js:169:2)\n    at runLoaders (/Users/gthompson/turing/mod_4/practice/word_watch/node_modules/loader-runner/lib/LoaderRunner.js:362:2)\n    at NormalModule.doBuild (/Users/gthompson/turing/mod_4/practice/word_watch/node_modules/webpack/lib/NormalModule.js:181:3)\n    at NormalModule.build (/Users/gthompson/turing/mod_4/practice/word_watch/node_modules/webpack/lib/NormalModule.js:274:15)\n    at Compilation.buildModule (/Users/gthompson/turing/mod_4/practice/word_watch/node_modules/webpack/lib/Compilation.js:149:10)\n    at factoryCallback (/Users/gthompson/turing/mod_4/practice/word_watch/node_modules/webpack/lib/Compilation.js:337:12)\n    at /Users/gthompson/turing/mod_4/practice/word_watch/node_modules/webpack/lib/NormalModuleFactory.js:241:5\n    at /Users/gthompson/turing/mod_4/practice/word_watch/node_modules/webpack/lib/NormalModuleFactory.js:94:13\n    at /Users/gthompson/turing/mod_4/practice/word_watch/node_modules/tapable/lib/Tapable.js:268:11\n    at NormalModuleFactory.<anonymous> (/Users/gthompson/turing/mod_4/practice/word_watch/node_modules/webpack/lib/CompatibilityPlugin.js:52:5)");
 
 /***/ }),
 /* 5 */
-/***/ (function(module, exports) {
-
-/*
-	MIT License http://www.opensource.org/licenses/mit-license.php
-	Author Tobias Koppers @sokra
-*/
-// css base code, injected by the css-loader
-module.exports = function(useSourceMap) {
-	var list = [];
-
-	// return the list of modules as css string
-	list.toString = function toString() {
-		return this.map(function (item) {
-			var content = cssWithMappingToString(item, useSourceMap);
-			if(item[2]) {
-				return "@media " + item[2] + "{" + content + "}";
-			} else {
-				return content;
-			}
-		}).join("");
-	};
-
-	// import a list of modules into the list
-	list.i = function(modules, mediaQuery) {
-		if(typeof modules === "string")
-			modules = [[null, modules, ""]];
-		var alreadyImportedModules = {};
-		for(var i = 0; i < this.length; i++) {
-			var id = this[i][0];
-			if(typeof id === "number")
-				alreadyImportedModules[id] = true;
-		}
-		for(i = 0; i < modules.length; i++) {
-			var item = modules[i];
-			// skip already imported module
-			// this implementation is not 100% perfect for weird media query combinations
-			//  when a module is imported multiple times with different media queries.
-			//  I hope this will never occur (Hey this way we have smaller bundles)
-			if(typeof item[0] !== "number" || !alreadyImportedModules[item[0]]) {
-				if(mediaQuery && !item[2]) {
-					item[2] = mediaQuery;
-				} else if(mediaQuery) {
-					item[2] = "(" + item[2] + ") and (" + mediaQuery + ")";
-				}
-				list.push(item);
-			}
-		}
-	};
-	return list;
-};
-
-function cssWithMappingToString(item, useSourceMap) {
-	var content = item[1] || '';
-	var cssMapping = item[3];
-	if (!cssMapping) {
-		return content;
-	}
-
-	if (useSourceMap && typeof btoa === 'function') {
-		var sourceMapping = toComment(cssMapping);
-		var sourceURLs = cssMapping.sources.map(function (source) {
-			return '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'
-		});
-
-		return [content].concat(sourceURLs).concat([sourceMapping]).join('\n');
-	}
-
-	return [content].join('\n');
-}
-
-// Adapted from convert-source-map (MIT)
-function toComment(sourceMap) {
-	// eslint-disable-next-line no-undef
-	var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));
-	var data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;
-
-	return '/*# ' + data + ' */';
-}
-
-
-/***/ }),
-/* 6 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -10520,7 +10430,7 @@ var singleton = null;
 var	singletonCounter = 0;
 var	stylesInsertedAtTop = [];
 
-var	fixUrls = __webpack_require__(7);
+var	fixUrls = __webpack_require__(6);
 
 module.exports = function(list, options) {
 	if (typeof DEBUG !== "undefined" && DEBUG) {
@@ -10833,7 +10743,7 @@ function updateLink (link, options, obj) {
 
 
 /***/ }),
-/* 7 */
+/* 6 */
 /***/ (function(module, exports) {
 
 
