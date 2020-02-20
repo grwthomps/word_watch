@@ -1,10 +1,10 @@
 const path = require('path');
 
 module.exports = {
-  entry: ['./src/index.js', './src/stylesheets/styles.scss'],
+  entry: ['./index.js', './styles.scss'],
   output: {
     filename: 'bundle.js',
-    path: path.resolve(__dirname, 'docs')
+    path: '/'
   },
   module: {
     loaders: [{
@@ -24,6 +24,6 @@ module.exports = {
     }]
   },
   devServer: {
-    contentBase: "./docs"
+    contentBase: "./"
   }
 };
